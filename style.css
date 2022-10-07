@@ -57,7 +57,7 @@ p, label{
     margin-top: 50px;
     background-color: #3d3d7c;
     width: 400px;
-    border-bottom: solid 2px yellow;
+    border-bottom: solid 2px #93d186;
     padding: 5px 5px;
     border-radius: 10px;
 }
@@ -72,7 +72,7 @@ p, label{
     margin: 5px 5px;
     padding: 10px 10px;
     width: 400px;
-    border-bottom: solid 2px yellow;
+    border-bottom: solid 2px #93d186;
     padding: 5px 5px;
     border-radius: 10px;
 }
@@ -80,6 +80,12 @@ p, label{
 #select{
     width: 200px;
     height: 30px;
+}
+
+#select-2{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
 }
 
 .inputs{
@@ -102,7 +108,7 @@ input{
 button{
     width: 190px;
     height: 35px;
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: #93d186;
     border-radius: 20px;
     color: black;
@@ -111,10 +117,11 @@ button{
     margin-bottom: 10px;
     font-size: 17px;
     transition: .2s;
+    cursor: pointer;
 }
 
 button:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .result{
@@ -124,9 +131,9 @@ button:hover{
     align-items: center;
     height: 300px;
     border-radius: 10px;
-    border-bottom: solid 3px yellow;
+    border-bottom: solid 3px #93d186;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .resultado{
@@ -135,7 +142,11 @@ button:hover{
     font-weight: 600;
 }
 
-#printResult{
+h3{
     color: white;
     margin-top: 20px;
+}
+
+#printResult{
+    margin-top: 70px;
 }
