@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@400;900&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: absolute;
+    background-color: #222244;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBoss{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+p, label{
+    font-size: 23px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.qualGenero{
+    margin-bottom: 10px;
+}
+
+.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #3d3d7c;
+    width: 400px;
+    border-bottom: solid 2px yellow;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #3d3d7c;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    width: 400px;
+    border-bottom: solid 2px yellow;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+#select{
+    width: 200px;
+    height: 30px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 200px;
+}
+
+input{
+    width: 170px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+
+button{
+    width: 190px;
+    height: 35px;
+    margin-top: 30px;
+    background-color: #93d186;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+    transition: .2s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.result{
+    background-color: #3d3d7c;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border-radius: 10px;
+    border-bottom: solid 3px yellow;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.resultado{
+    color: white;
+    margin-top: 10px;
+}
+
+#printResult{
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador Metabolismo Basal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="containerBoss">
+        <div class="textContainer">
+            <h1>Taxa de Metabolismo Basal</h1>
+            <p>A taxa metabólica basal pode ser entendida como a energia mínima que o corpo necessita para manter seu funcionamento.</p>
+        </div>
+        
+        <div class="form">
+            <label class="qualGenero" for="">Qual o seu Gênero?</label>
+            <div class="inputs">
+                <!-- <input type="radio" name="genero" id="masculino" value="masculino">Masculino
+                <input type="radio" name="genero" id="feminino" value="feminino">Feminino -->
+
+                <select name="Selecione seu sexo" id="select">
+                    <option value="default">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </div>
+            
+            
+        </div>
+
+        <div class="dados">
+            <label for="">Qual a sua altura?</label>
+            <input placeholder="Altura em centimetros" type="number" id="altura">
+            <label for="">Qual a sua idade?</label>
+            <input placeholder="Digite sua idade" type="number" id="idade">
+            <label for="">Qual o seu peso?</label>
+            <input placeholder="Seu peso em Kg" type="number" id="peso">
+            <button onclick="atualizouSelect()" id="btn" type="submit">CALCULAR</button>
+        </div>
+
+        <div class="result">
+            <p class="resultado">SEU RESULTADO</p>
+            <h3 id="printResult"></h3>
+            <h3 id="total"></h3>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
