@@ -153,7 +153,6 @@ h3{
 .info{
     display: flex;
     justify-content: start;
-    align-items: ;
     flex-direction: column;
     color: white;
     background-color: #3d3d7c;
