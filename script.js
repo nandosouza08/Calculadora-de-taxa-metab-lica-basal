@@ -23,45 +23,35 @@ function atualizouSelect() {
     let muitoAtivoInfo = ("Muito Ativo - Exercícios pesados diários ou treinos 2x ao dia")
 
         if (text == "Masculino" && atividade == "Sedentário") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.2) + " calorias diariamente para se manter saudável";
-                info.innerHTML = sedentarioInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.2) + " calorias diariamente para se manter saudável";               
             }else if (text == "Masculino" && atividade == "Levemente Ativo") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.375) + " calorias diariamente para se manter saudável";
-                info.innerHTML =levementeAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.375) + " calorias diariamente para se manter saudável";                
             }else if(text == "Masculino" && atividade == "Moderadamente Ativo"){
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.55) + " calorias diariamente para se manter saudável";
-                info.innerHTML = moderadamenteAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.55) + " calorias diariamente para se manter saudável";                
             }else if(text == "Masculino" && atividade == "Bastante Ativo"){
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.725) + " calorias diariamente para se manter saudável";
-                info.innerHTML = bastanteAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.725) + " calorias diariamente para se manter saudável";               
             }else if(text == "Masculino" && atividade == "Muito Ativo"){
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.9) + " calorias diariamente para se manter saudável";
-                info.innerHTML = muitoAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.9) + " calorias diariamente para se manter saudável";                
             }else if (text == "Feminino" && atividade == "Sedentário") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.2) + " calorias diariamente para se manter saudável";
-                info.innerHTML = sedentarioInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.2) + " calorias diariamente para se manter saudável";               
             }else if (text == "Feminino" && atividade == "Levemente Ativo") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.375) + " calorias diariamente para se manter saudável";
-                info.innerHTML =levementeAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.375) + " calorias diariamente para se manter saudável";               
             }else if (text == "Feminino" && atividade == "Moderadamente Ativo") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.55) + " calorias diariamente para se manter saudável";
-                info.innerHTML = moderadamenteAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.55) + " calorias diariamente para se manter saudável";              
             }else if (text == "Feminino" && atividade == "Bastante Ativo") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher);
-                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.725) + " calorias diariamente para se manter saudável";
-                info.innerHTML = bastanteAtivoInfo
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher) + " calorias";
+                resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.725) + " calorias diariamente para se manter saudável";                
             }else if (text == "Feminino" && atividade == "Muito Ativo") {
-                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher);
+                resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(mulher) + " calorias";
                 resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(mulher * 1.9) + " calorias diariamente para se manter saudável";
-                info.innerHTML = muitoAtivoInfo
             }else {
                 alert("Gênero ou Nível de Atividade inválidos");
             } 
