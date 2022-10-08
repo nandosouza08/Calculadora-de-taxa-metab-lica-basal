@@ -69,8 +69,7 @@ p, label{
     flex-direction: column;
     color: white;
     background-color: #3d3d7c;
-    margin: 5px 5px;
-    padding: 10px 10px;
+    margin-top: 5px;
     width: 400px;
     border-bottom: solid 2px #93d186;
     padding: 5px 5px;
@@ -115,12 +114,13 @@ button{
     border: none;
     margin-bottom: 10px;
     font-size: 17px;
-    transition: .2s;
+    transition: .3s;
     cursor: pointer;
 }
 
 button:hover{
-    transform: scale(1.02);
+    transform: scale(1.09);
+    background-color: #4cdd2f;
 }
 
 .result{
@@ -128,7 +128,7 @@ button:hover{
     width: 800px;
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     border-bottom: solid 3px #93d186;
     flex-direction: column;
@@ -147,5 +147,20 @@ h3{
 }
 
 #printResult{
-    margin-top: 70px;
+    margin-top: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: ;
+    flex-direction: column;
+    color: white;
+    background-color: #3d3d7c;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    width: 600px;
+    border-bottom: solid 2px #93d186;
+    padding: 15px 15px;
+    border-radius: 10px;
 }
