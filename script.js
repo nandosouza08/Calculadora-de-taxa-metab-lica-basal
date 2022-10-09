@@ -1,4 +1,4 @@
-
+// VARIÁVEIS UTILIZADAS
 function atualizouSelect() {
 
     let altura = document.querySelector("#altura").value
@@ -22,6 +22,8 @@ function atualizouSelect() {
     let bastanteAtivoInfo = ("Bastante Ativo - Exercício pesado – de 6 a 7 dias por semana")
     let muitoAtivoInfo = ("Muito Ativo - Exercícios pesados diários ou treinos 2x ao dia")
 
+
+        // CÓDIGO RESPONSÁVEL PELOS CALCULOS
         if (text == "Masculino" && atividade == "Sedentário") {
                 resultado.innerHTML = "Sua taxa metabólica basal é de: " + Math.round(homem) + " calorias";
                 resultadoLine2.innerHTML = "Você precisa consumir " + Math.round(homem * 1.2) + " calorias diariamente para se manter saudável";               
@@ -57,6 +59,8 @@ function atualizouSelect() {
             } 
 }
 
+
+// BOTÃO NOVA CONSULTA
 function clearForm() {
 
     document.getElementById('altura').value='';
