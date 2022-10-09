@@ -56,3 +56,14 @@ function atualizouSelect() {
                 alert("Gênero ou Nível de Atividade inválidos");
             } 
 }
+
+function clearForm() {
+
+    document.getElementById('altura').value='';
+    document.getElementById('idade').value='';
+    document.getElementById('peso').value='';
+    document.getElementById('select').value='default';
+    document.getElementById('select-2').value='default';
+    document.getElementById('printResult').innerHTML = "";
+    document.getElementById('total').innerHTML = "";
+}
