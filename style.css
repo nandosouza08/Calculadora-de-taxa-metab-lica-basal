@@ -33,6 +33,12 @@ body{
     flex-direction: column;
 }
 
+.textContainer p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 h1{
     padding-bottom: 20px;
     margin-top: 20px;
@@ -167,4 +173,76 @@ h4{
     position: absolute;
     margin-top: 150px;
     margin-left: 610px;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 835px) {
+
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    label{
+        
+        font-size: 16px;
+    }
+    button{
+        width: 100px;
+        font-size: 10px;
+    }
+    .info{
+        width: 385px;
+    }
+    .result{
+        width: 385px;
+    }
+    #btnClear{
+        margin-left: 300px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .dados{
+        width: 300px;
+    }
+    .info{
+        width: 285px;
+    }
+    .result{
+        width: 285px;
+    }
+    #btnClear{
+        margin-left: 200px;
+    }
+    button{
+        width: 100px;
+        font-size: 10px;
+        height: 24px;
+    }
+}
+
+@media only screen and (max-width: 318px) {
+    .dados{
+        width: 250px;
+    }
+    .info{
+        width: 235px;
+    }
+    .result{
+        width: 235px;
+    }
+    #btnClear{
+        margin-left: 150px;
+    }
+    button{
+        width: 100px;
+        font-size: 10px;
+        height: 24px;
+    }
 }

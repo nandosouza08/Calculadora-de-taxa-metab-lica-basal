@@ -59,7 +59,6 @@ function atualizouSelect() {
             } 
 }
 
-
 // BOTÃO NOVA CONSULTA
 function clearForm() {
 
