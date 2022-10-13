@@ -8,7 +8,10 @@
 
 body{
     position: absolute;
-    background-color: #222244;
+    background-color: #1C1C35;
+    background-image: url(img/sven-mieke-jO6vBWX9h9Y-unsplash.jpg);
+    backdrop-filter: url(img/sven-mieke-jO6vBWX9h9Y-unsplash.jpg) blur(10px);
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     display: flex;
@@ -60,12 +63,12 @@ p, label{
     align-items: center;
     flex-direction: column;
     color: white;
-    background-color: #3d3d7c;
+    background-color: #1a311fce;
     margin-top: 15px;
     width: 400px;
-    border-bottom: solid 1px #93d186;
+    border-bottom: solid 3px #93d186;
     padding: 5px 5px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #select{
@@ -111,18 +114,18 @@ button{
 }
 
 button:hover{
-    transform: scale(1.09);
-    background-color: #4cdd2f;
+    transform: scale(1.05);
+    background-color: #5fe4a6;
 }
 
 .result{
-    background-color: #3d3d7c;
+    background-color: #1a311fce;
     width: 800px;
     display: flex;
     align-items: center;
     height: 190px;
-    border-radius: 10px;
-    border-bottom: solid 1px #93d186;
+    border-radius: 5px;
+    border-bottom: solid 3px #93d186;
     flex-direction: column;
     margin-top: 0px;
     padding: 0px 15px;
@@ -157,12 +160,12 @@ h4{
     justify-content: start;
     flex-direction: column;
     color: white;
-    background-color: #3d3d7c;
+    background-color: #1a311fce;
     margin: 5px 5px;
     width: 800px;
-    border-bottom: solid 1px #93d186;
+    border-bottom: solid 3px #93d186;
     padding: 15px 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .info h4{
